@@ -1,0 +1,47 @@
+/* Custom styling for theme layout control settings page */
+.theme-layout-control-wrap {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.theme-layout-control-wrap h2 {
+    margin-top: 0;
+}
+
+.theme-layout-control-wrap .form-table {
+    width: 100%;
+}
+
+.theme-layout-control-wrap input[type="range"] {
+    width: 100%;
+}
+
+.theme-layout-control-wrap input[type="radio"] {
+    margin-right: 10px;
+}
+
+.collapsible {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 16px;
+}
+
+.collapsible h3 {
+    cursor: pointer;
+    padding: 16px;
+    margin: 0;
+}
+
+.collapsible .content {
+    display: none;
+    padding: 0 16px;
+}
+
+.collapsible.open .content {
+    display: block;
+}
